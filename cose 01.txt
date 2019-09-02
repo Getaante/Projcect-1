@@ -1,0 +1,32 @@
+// Example program
+#include <iostream>
+#include <string>
+using namespace std;
+
+void processNames(int sizeInput) {
+   const int size=sizeInput;
+
+string name[size];
+for (int index=0;  index < size; index++){
+    cout<< "enter:" << index+1<<" name "<< endl;
+    cin >> name[index];
+ 
+}
+
+for (int index=0;  index < size; index++){
+    cout <<name[index]<<endl;
+ 
+}
+
+}
+
+
+int main(){
+    
+    int size = 5;
+    int name[size];
+    name[0] = 1;
+    processNames(size);
+   
+
+}
